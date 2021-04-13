@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/emilyepozzi/Readme-Generator/issues"
   },
-  "homepage": "https://github.com/emilyepozzi/Readme-Generator",
+  "homepage": "https://github.com/emilyepozzi/Readme-Generator#readme",
   "dependencies": {
     "inquirer": "^8.0.0"
   }
