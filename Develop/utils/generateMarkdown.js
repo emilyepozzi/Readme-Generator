@@ -31,8 +31,8 @@ function generateMarkdown(data) {
 # ${data.Title}
 https://github.com/emilyepozzi/Readme-Generator
 
-# Description
-# ${data.Description}
+## Description
+${data.Description}
 
 # Table of Contents
 * [Installation](#installation)
