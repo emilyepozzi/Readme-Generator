@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require("utils");
 
 const generatorMarkdown = require('./utils/generateMarkdown');
 
@@ -8,7 +7,7 @@ const generatorMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
     type: "input",
-    message: "What is the title of the project?"
+    message: "What is the title of the project?",
     name: "Title"
 }, {
     type: "input", 
@@ -16,24 +15,21 @@ const questions = [
     name: "Description"
 }, {
     type: "input",
-    message: "Table of Contents",
-    name: "Table of Contents"
-}, {
-    type: "input",
     message: "What does the user need to install this application?",
     name: "Installation"
 }, {
     type: "input",
-    messsage: "How is this application used?",
+    message: "How is this application used?",
     name: "Usage"
 }, {
-    type: "input",
-    message: "What license is being used for your project? (MIT, Apache, GPL)",
-    name: "License"
+    type: "list",
+    message: "What license is being used for your project?",
+    name: "License",
+    choices: ["MIT", "Apache", "GPL"],
 }, {
-type: "input",
-message: "What is your GitHub username?",
-name: "Username"
+    type: "input",
+    message: "What is your GitHub username?",
+    name: "Username"
 }, {
     type: "input",
     message: "What is your email address?",
@@ -64,9 +60,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data) {
+        console.log(data)
 writeToFile("README.md", generatorMarkdown(data));
-console.log(data)
-
     })
 
 }
@@ -74,4 +69,4 @@ console.log(data)
 // Function call to initialize app
 init();
 
-console.log('Hello');
+// console.log('Hello');
