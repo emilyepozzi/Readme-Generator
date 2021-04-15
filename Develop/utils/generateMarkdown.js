@@ -29,14 +29,40 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
 # ${data.Title}
-https://github.com/${data.Username}/${data.Title}
+https://github.com/emilyepozzi/Readme-Generator
+
 # Description
 # ${data.Description}
+
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* 
-# ${renderLicenseBadge(data.License)}
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Username](#username)
+# [Email](#email)
+
+# Installation
+${data.Installation}
+
+# Usage
+${data.Usage}
+
+# License
+${renderLicenseBadge(data.License)}
+
+## The Main Contributor in this application :
+${data.Contributing}
+
+# Command needed to test this app in terminal :
+${data.Tests}
+
+# Username Information 
+${data.Username}
+
+## Contact Inquiry Questions :
+[My personal GitHub Page](https://github.com/emilyepozzi)
 
   `
 }

@@ -18,10 +18,6 @@ const questions = [
     message: "What does the user need to install this application?",
     name: "Installation"
 }, {
-    type: "input",
-    message: "How is this application used?",
-    name: "Usage"
-}, {
     type: "list",
     message: "What license is being used for your project?",
     name: "License",
@@ -36,9 +32,17 @@ const questions = [
     name: "Email"
 }, {
     type: "input",
-    message: "Contact information for inquiries.",
-    name: "Questions"
-},
+    message: "How is this app used? Give instructions.",
+    name: "Usage"
+}, {
+    type: "input",
+    message: "Who was the contributor in this application?",
+    name: "Contributing"
+}, {
+    type: "input",
+    message: "What commands are needed to test this app?",
+    name: "Tests"
+}, 
 
 ]
 
