@@ -15,16 +15,16 @@ https://github.com/emilyepozzi/Readme-Generator
 # [Email](#email)
 
 ## Installation
-ibm i 
+ibm m 
 
 ### Usage
-By node.js
+node index.js
 
 ## License
 [![license badge](https://img.shields.io/badge/license-GPL-brightgreen)](https://opensource.org/licenses/gpl-license)
 
 ### The Main Contributor in this application :
-Myself
+I built this application with the help of TAs during office hours and my tutor, Joseph Young.
 
 ### Command needed to test this app in terminal :
 node index.js

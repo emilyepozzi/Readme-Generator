@@ -9,12 +9,12 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   switch(license) {
+    case "GPL":
+      return "https://opensource.org/licenses/gpl-license";
     case "MIT":
       return "https://opensource.org/licenses/MIT";
     case "Apache":
       return "https://opensource.org/licenses/Apache-2.0";
-    case "GPL":
-      return "https://opensource.org/licenses/gpl-license";
   }
 };
 
@@ -41,7 +41,6 @@ ${data.Description}
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Username](#username)
-# [Email](#email)
 
 # Installation
 ${data.Installation}
