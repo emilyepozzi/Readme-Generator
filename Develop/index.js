@@ -32,10 +32,6 @@ const questions = [
     name: "Email"
 }, {
     type: "input",
-    message: "How is this app used? Give instructions.",
-    name: "Usage"
-}, {
-    type: "input",
     message: "Who was the contributor in this application?",
     name: "Contributing"
 }, {
