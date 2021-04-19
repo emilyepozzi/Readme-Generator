@@ -3,7 +3,7 @@
 https://github.com/emilyepozzi/Readme-Generator
 
 ## Description
-This app allows users to use node.js to make a README.md file.
+This app allows users to provide anyone with a quality README. 
 
 # Table of Contents
 * [Installation](#installation)
@@ -14,22 +14,22 @@ This app allows users to use node.js to make a README.md file.
 * [Username](#username)
 
 # Installation
-Npm i 
+Npm i
 
 # Usage
-NA
+undefined
 
 # License
 [![license badge](https://img.shields.io/badge/license-MIT-brightgreen)](https://opensource.org/licenses/MIT)
 
 ## The Main Contributor in this application :
-Myself
+myself
 
 # Command needed to test this app in terminal :
 node index.js
 
 # Username Information 
-Emilyepozzi
+emilyepozzi
 
 ## Contact Inquiry Questions :
 [My personal GitHub Page](https://github.com/emilyepozzi)
